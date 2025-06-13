@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Técnica</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Bienvenido a mi página</h1>
+    <p>Esta es una página de ejemplo que demuestra cómo integrar elementos HTML básicos con JavaScript.</p>
+
+    <button id="alertButton">Haz clic aquí</button>
+
+    <hr> <h2>Validación de Formulario</h2>
+    <form id="userForm">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+        <p id="errorNombre" class="error-message" aria-live="polite"></p>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="successMessage" class="success-message" aria-live="polite"></p>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
